@@ -1,0 +1,45 @@
+{block header}
+
+    <h1>Nette Framework</h1>
+    
+    <div class="navBar">
+        <a n:href="Homepage:">1</a>
+        <a n:href="Page2:">2</a>
+        <a n:href="Page3:">3</a>
+        <a n:href="Page4:">4</a>
+        <a id="active" n:href="Page5:">5</a>
+        <a n:href="Page6:">6</a>
+    </div>
+    
+{/block}
+
+{block content}
+    
+    <h2>The Conclusion</h2>
+	<div class="about">
+		<p>Place holder text about our experience with framework </p>
+		<p class="subtitle">Rate Our Experience</p>
+		<u1 style="list-style-type:disc">
+			<li>IGN 10/10</li>
+			<li>trash</li>
+		</u1>
+		<p class="subtitle">Installation and Configuration</p>
+		<u1 style="list-style-type:disc">
+			<li>????</li>
+			<li>????</li>
+		</u1>
+		<p class="subtitle">Learning Curve</p>
+		<u1 style="list-style-type:disc">
+			<li>The learning curve was pretty steep.
+				Once Nette was set up on the server there was no clear indication of where to start creating our pages.
+				Coupled with the fact that there is little information online to help us get started it took a while before we were able to set up the pages.</li>
+		</u1>
+		<p class="subtitle">Performance</p>
+		<u1 style="list-style-type:disc">
+			<li>Once everything was set up we were able to create clean looking pages that work on a variety of browsers and mobile devices as well.</li>
+			<li>Overall, working with Nette was a good learning experience.
+				In hindsight choosing a more popular framework would have made the project easier in terms of finding information online.
+				However we could see the potential benefits of using a framework for web development, especially for larger scale projects.</li>
+		</u1>
+	</div>
+{/block}
